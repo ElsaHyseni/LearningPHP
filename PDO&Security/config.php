@@ -3,10 +3,10 @@
 
 return[
   'database' => [
-    'name' => 'universities',
-    'username' => 'root',
+    'name' => 'dbname',
+    'username' => 'username',
     'password' => '',
-    'connection' => 'mysql:host=127.0.0.1',
+    'connection' => 'mysql:host=',
     'options' => [PDO::ATTR_ERRMODE => PDO::ERRMODE_SILENT]
   ]
 ];
